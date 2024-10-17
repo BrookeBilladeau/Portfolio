@@ -1,0 +1,171 @@
+html {
+	height: 100%;
+}
+	body {
+		background: #302f2c;
+		height: 100%;
+	}
+		.navbar {
+			justify-content: space-around;
+		}
+
+    #text {
+        padding-top: 2rem;
+    }
+    
+	h1 {
+		color: white;
+		text-align: center;
+		align-items: center;
+	}
+	h3 {
+		padding-left: 3rem;
+	}
+
+	.col-md-6 h1 {
+		padding-bottom: 20px;
+		font-size: 3rem;
+	}
+	img {
+        flex-wrap: wrap;
+        width: 50%;
+        float: left;
+        padding-right: 2rem;
+        padding-bottom: 1rem;
+ 	}
+
+	p {
+		color: white;
+		text-indent: 2em;
+        font-size: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+	}
+	/*Navigation Bar Styles*/
+
+		.container-fluid {
+			justify-content: space-between;
+		}
+
+		
+			/*Left Side*/
+			.left {
+				float: left;
+				height: 100px;
+				display: block;
+				text-align: left;
+			}
+
+			/*Center*/
+			.center {
+				display: block;
+				text-align: center;
+				height: 100px;
+			}
+
+			/*Right Side*/
+			.right {
+				float: right;
+				height: 100px;
+				display: block;
+			}
+				.icon {
+				  float: right;
+				  color: white;
+				  font-size: 60px;
+				}
+				/* The Overlay (background) */
+				.overlay {
+				  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+				  height: 0%;
+				  width: 100%;
+				  position: fixed; /* Stay in place */
+				  z-index: 1; /* Sit on top */
+				  left: 0;
+				  top: 0;
+				  background-color: rgb(0,0,0); /* Black fallback color */
+				  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+				  overflow-x: hidden; /* Disable horizontal scroll */
+				  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+				}
+
+				/* Position the content inside the overlay */
+				.overlay-content {
+				  position: relative;
+				  top: 25%; /* 25% from the top */
+				  width: 100%; /* 100% width */
+				  text-align: center; /* Centered text/links */
+				  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+				  text-transform: uppercase;
+				}
+
+				/* The navigation links inside the overlay */
+				.overlay a {
+				  padding: 8px;
+				  text-decoration: none;
+				  font-size: 36px;
+				  color: #818181;
+				  display: block; /* Display block instead of inline */
+				  transition: 0.3s; /* Transition effects on hover (color) */
+				}
+
+				/* When you mouse over the navigation links, change their color */
+				.overlay a:hover, .overlay a:focus {
+				  color: #f1f1f1;
+				  text-decoration: none;
+				}
+
+				/* Position the close button (top right corner) */
+				.overlay .closebtn {
+				  position: absolute;
+				  top: 20px;
+				  right: 45px;
+				  font-size: 60px;
+				}
+
+		.text-center {
+			color: white;
+			font-size: 4rem;
+		}
+
+	/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+	@media (max-width: 900px) {
+		#nav .text-center {
+			font-size: 3rem;
+		}
+		#nav {
+			padding: 25px 50px;
+		}
+    } /*Media (width 900) End Bracket*/
+    
+    @media (max-width: 750px) {
+        img {
+            width: 100%;
+            padding-right: 0;
+        }
+    } /* Media (width 750) End Bracket */
+	@media only screen and (max-height: 800px) and (max-width: 600px){
+		  .overlay a {font-size: 20px}
+		  .overlay .closebtn {
+		    font-size: 40px;
+		    top: 15px;
+		    right: 35px;
+		  }
+		#nav {
+			padding: 25px 25px;
+		}
+		#nav .text-center {
+			font-size: 2.5rem;
+		}
+		#nav .center {
+			margin-top: 50px;
+        }
+
+	}/*Media (width 600) End Bracket*/
+
+    @media (max-width: 400px) {
+
+        #text {
+            padding-top: 0;
+        }
+    }/* Media (width 400) End Bracket*/
