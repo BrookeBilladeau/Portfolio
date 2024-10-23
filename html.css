@@ -1,0 +1,134 @@
+html {
+	height: 100%;
+}
+    nav {
+        background-color: white;
+    }
+    body {
+		background-image: url("code.jpg");
+		background-size: cover;
+		background-position: center;
+        background-repeat: repeat;
+        background-color: white;
+        width: 80%;
+        margin: auto;
+    }
+        h1 {
+            color: black;
+        }
+        .icon {
+            color: black;
+        }
+        p{
+            color: black;
+            text-indent: 0rem;
+        }
+        .container-fluid {
+            background-color: white;
+            padding: 1rem 4rem 1rem 4rem;
+        }
+    /*Media Queries*/
+    @media screen and (max-width: 1400px) {
+        .break {
+            display: block;
+        }
+        .special{
+            display: none;
+        }
+    }/*Max 1400*/
+    @media screen and (max-width: 1250px) {
+        .medium {
+            display: block;
+        }
+        .long {
+            display: none;
+        }
+        .short {
+            display: none;
+        }
+        .special {
+            display: none;
+        }
+        .container-fluid {
+            padding: 1rem 2rem 1rem 2rem;
+        }
+        
+    }/*max 1250*/
+    @media screen and (max-width: 900px) {
+        .short {
+            display: block;
+        }
+        .long {
+            display: none;
+        }
+        .medium {
+            display: none;
+        }
+        .break {
+            display: none;
+        }
+        .special {
+            display: none;
+        }
+        .container-fluid {
+            padding: 1rem 1rem 1rem 1rem;
+        }
+    }/*max 900*/
+    @media screen and (max-width: 800px){
+        #logo {
+            display: none;
+        }
+        h2 {
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+        .left {
+            display: block;
+            width: 100%;
+            padding: 0px;
+        }
+        .right {
+            display: block;
+            width: 100%;
+        }
+        #main {
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        .short {
+            display: none;
+        }
+        .long {
+            display: block;
+        }
+        .medium {
+            display: none;
+        }
+        .break {
+            display: none;
+        }
+        .special {
+            display: block;
+        }
+
+    }/*Max 800*/
+    @media (max-width: 500px) {
+        .break {
+            display: block;
+        }
+        .special {
+            display: none;
+        }
+    } 
+    @media (max-width: 400px) {
+        .medium {
+            display: block;
+        }
+        .long {
+            display: none;
+        }
+        .short {
+            display: none;
+        }
+    } 

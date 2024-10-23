@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <title>Brooke Billadeau</title>
+    <!--add icon for the window tab-->
+
+    <!--Can link to url if not enough storage space on hosting site (Bootcamp Section7 Part75)-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--FontAwesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom CSS stylesheet must be listed last to override the above links-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="creative.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark">
+        <!--Home Icon Left-->
+        <a href="index.html" class="navbar-brand mr-0">
+            <i class="fa fa-home" style="font-size:60px;color:black;"></i>
+        </a>
+        <!--Title Center-->
+        <div>
+            <h1>&#60;Photoshop&#62;</h1>
+        </div>
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <!--Don't forget to update links-->
+                <a href="about.html">ABOUT</a>
+                <a href="portfolio.html">PORTFOLIO</a>
+                <a href="resume.pdf" target="_blank">RESUME</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </div>
+        <div class="icon">
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </nav>
+    <section class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 2-Magazine\magazine.jpg" alt="Magazine" />
+                    <figcaption><i>Magazine Cover Layout</i></figcaption>
+                </figure>
+            </div>
+            <!--End of first column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 5-Posters\AirborneMoviePoster.png" alt="Movie Poster" />
+                    <figcaption><i>Movie Poster</i></figcaption>
+                </figure>
+            </div>
+            <!--End of second column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 3-ImageCorrection\rossi-fixed.jpg"
+                        alt="Image Touchup" />
+                    <figcaption><i>Image Touchup</i></figcaption>
+                </figure>
+            </div>
+            <!--End of third column-->
+        </div>
+        <!--End of first row-->
+
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 3-ImageCorrection\amethyst-fixed.jpg"
+                        alt="Lighting Correction" />
+                    <figcaption><i>Lighting Correction</i></figcaption>
+                </figure>
+            </div>
+            <!--End of first column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 3-ImageCorrection\faience-CMYK.jpg"
+                        alt="Color Correction" />
+                    <figcaption><i>Color Correction</i></figcaption>
+                </figure>
+            </div>
+            <!--End of second column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 1-CD\cd-artwork-digital.jpg" alt="CD Cover" />
+                    <figcaption><i>CD cover art</i></figcaption>
+
+                </figure>
+            </div>
+            <!--End of third column-->
+        </div>
+        <!--End of Second Row-->
+
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 4-Promos\blvd_3D.jpg" alt="Postcard Promo" />
+                    <figcaption><i>Promotional Postcard</i></figcaption>
+                </figure>
+            </div>
+            <!--End of first column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 4-Promos\festival_3D.jpg" alt="3D Postcard" />
+                    <figcaption><i>3D Promotional Postcard</i></figcaption>
+                </figure>
+            </div>
+            <!--End of second column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 4-Promos\festival_flat.jpg" alt="Postcard without 3D" />
+                    <figcaption><i>Promotional Postcard</i></figcaption>
+                </figure>
+            </div>
+            <!--End of third column-->
+        </div>
+        <!--End of third row-->
+
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\balloon-final.jpg" alt="Balloon" />
+                    <figcaption><i>Advertising on Balloon</i></figcaption>
+                </figure>
+            </div>
+            <!--End of first column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\office-final.jpg" alt="Office Building" />
+                    <figcaption><i>Advertising on Building</i></figcaption>
+                </figure>
+            </div>
+            <!--End of second column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\studio-ad.jpg" alt="Building" />
+                    <figcaption><i>Advertising on Building</i></figcaption>
+                </figure>
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\tanks-final.jpg" alt="Water Tower" />
+                    <figcaption><i>Advertising on Water Tower</i></figcaption>
+                </figure>
+            </div>
+            <!--End of third column-->
+        </div>
+        <!--End of fourth row-->
+
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\canvas_bag.jpg" alt="Bag" />
+                    <figcaption><i>Advertising on Canvas Bag</i></figcaption>
+                </figure>
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\sign.jpg" alt="Sign" />
+                    <figcaption><i>Advertising on Street Sign</i></figcaption>
+                </figure>
+            </div>
+            <!--End of first column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\airplane.jpg" alt="Airplane" />
+                    <figcaption><i>Advertising on Airplane</i></figcaption>
+                </figure>
+            </div>
+            <!--End of second column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 6-Advertising\brick_wall.jpg" alt="Wall" />
+                    <figcaption><i>Advertising on Wall</i></figcaption>
+                </figure>
+            </div>
+            <!--End of third column-->
+        </div>
+        <!--End of fifth row-->
+
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 5-Posters\ballet-cover.jpg" alt="Calendar Cover" />
+                    <figcaption><i>Calendar Cover</i></figcaption>
+                </figure>
+            </div>
+            <!--End of first column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 7-Markups\house-final.jpg" alt="House Markup" />
+                    <figcaption><i>House Markup</i></figcaption>
+                </figure>
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 3-ImageCorrection\museum-merged.jpg"
+                        alt="Museum Filter" />
+                    <figcaption><i>An example of Filters</i></figcaption>
+                </figure>
+            </div>
+            <!--End of second column-->
+            <div class="col-lg-4">
+                <figure>
+                    <img class="img-fluid" src=".\photoshop\Ch. 8-WebStory\Web Large.png" alt="Website Storyboard" />
+                    <figcaption><i>Website Storyboard</i></figcaption>
+                </figure>
+            </div>
+            <!--End of third column-->
+        </div>
+        <!--End of sixth row-->
+    </section>
+    <script src="landing.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
