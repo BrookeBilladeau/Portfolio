@@ -1,0 +1,111 @@
+@charset "UTF-8";
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+    padding: 5px;
+    font-family: pt-sans, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    font-style: normal;
+    font-weight: 400;
+}
+.grid-wrap > div {
+	padding: 5px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.85);
+}
+div.logo, div.footer {
+	background-color: transparent;
+}
+div.header {
+	border-radius: 10px;
+}
+div.text1 {
+	text-align: left;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+p {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px;
+}
+h1 {
+    font-size: 55px;
+    font-family: baumans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+h2 {
+    font-size: 24px;
+    margin: 15px 0px 5px 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+img.main-logo {
+    width: 60%;
+	height: auto;
+}
+div.text2 p {
+    margin: 0px;
+    padding: 0px;
+}
+div.footer {
+    color: #FFF;
+}
+video {
+	width: 100%;
+	height: auto;
+}
+/* These styles control the top navigation bar*/
+
+nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+    background-color: rgba(0,91,171,1.00);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+nav p {
+    margin: 0px;
+    padding: 5px 15px 0px 10px;
+    border-right: 1px solid #FFF;
+    display: inline-block;
+}
+nav p a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav p a:hover {
+    color: rgba(192,66,100,1.00);
+}
+nav p:last-of-type {
+    border-right: 0px;
+}
+
+@media (max-width: 991px) {
+	h1 {
+		font-size: 46px;
+	}
+	div.text1 {
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+}

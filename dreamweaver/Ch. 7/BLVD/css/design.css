@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body {
+	background-attachment: fixed;
+	background-image: url(../images/starburst.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-color: #000;
+	margin: 10px 10px 0px 10px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: #FFF;
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+}
+h2  {
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+	margin: 0px;
+	padding-bottom: 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1.00);
+}
+p {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 175%;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+.feature-section {
+	margin: 15px 0px 15px 0px;
+	padding: 15px 0px 0px 0px;
+	border-radius: 20px 20px 0px 0px;
+	background-image: url(../images/bricks.png);
+}
+.feature-section p {
+    color: #000000;
+    background-color: rgba(255,255,255,0.80);
+    font-size: 13px;
+    padding: 10px 10px 15px 10px;
+    margin: 0px;
+}
+.footer {
+	color: rgba(148,148,148,1.00);
+	text-align: center;
+	font-size: 12px;
+}
+.feature {
+}
+
+@media screen and (min-width:768px){
+	h1 {
+		font-size: 34px;
+	}
+	p {
+		font-size: 16px;
+	}
+	.feature-section p {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 767.98px){
+	.feature-section {
+    max-height: 55px;
+    overflow: hidden;
+    -webkit-transition: all .5s linear 0s;
+    -o-transition: all .5s linear 0s;
+    transition: all .5s linear 0s;
+	}
+}
+.feature-section:hover {
+    max-height: 999px;
+}
