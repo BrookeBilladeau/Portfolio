@@ -1,0 +1,31 @@
+body {
+	/*Portugal home page background */
+	background-image: url("../img/Portugal_Header.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.content h3 {
+	/*Portugal home page typing*/
+	padding-top: 50px;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+/* Portugal Site Navigation*/
+.fixed-bottom {
+	background-color: rgb(113, 86, 39);
+}
+
+.nav-item a {
+	color: rgb(250, 243, 221);
+	font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+	color: rgb(239, 220, 156);
+}
+
+/*End of Portugal Site Navigation*/
